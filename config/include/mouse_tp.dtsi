@@ -1,4 +1,4 @@
-#ifdef HAS_MOUSE_TP
+j#ifdef HAS_MOUSE_TP
   #include <dt-bindings/zmk/mouse.h>
   #include <dt-bindings/zmk/mouse_settings.h>
   #include <behaviors/mouse_keys.dtsi>
@@ -105,7 +105,7 @@
     &mouse_ps2 {
 
       // How sensitive the TP is (Default: 128)
-      // tp-sensitivity = <100>;
+      // tp-sensitivity = <80>;
 
 
       // The maximum mouse movement speed the TP will accelarate to
