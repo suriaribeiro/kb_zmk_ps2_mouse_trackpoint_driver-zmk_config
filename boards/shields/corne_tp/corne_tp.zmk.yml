@@ -3,7 +3,7 @@ id: corne_tp
 name: Corne TP
 type: shield
 url: https://github.com/foostan/crkbd/
-requires: [pro_micro]
+requires: [seeeduino_xiao_ble]
 exposes: [i2c_oled]
 features:
   - keys
