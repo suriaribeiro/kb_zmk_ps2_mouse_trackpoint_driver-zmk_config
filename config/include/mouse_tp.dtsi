@@ -1,4 +1,4 @@
-j#ifdef HAS_MOUSE_TP
+#ifdef HAS_MOUSE_TP
   #include <dt-bindings/zmk/mouse.h>
   #include <dt-bindings/zmk/mouse_settings.h>
   #include <behaviors/mouse_keys.dtsi>
@@ -80,9 +80,9 @@ j#ifdef HAS_MOUSE_TP
       // This adjusts the values inside the zmk driver. Some
       // trackpoints also allow you to adjust it in their firmware. Check
       // the driver options below for more info.
-       xy-swap;
-       x-invert;
-       y-invert;
+      // xy-swap;
+      // x-invert;
+      // y-invert;
 
       // Set the layer that should automatically activate when the mouse is
       // moving.
